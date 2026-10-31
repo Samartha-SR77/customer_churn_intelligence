@@ -1,0 +1,17 @@
+{
+    "model_name": "Tuned Random Forest",
+    "threshold": 0.5,
+    "best_parameters": {
+        "classifier__class_weight": "balanced",
+        "classifier__max_depth": 10,
+        "classifier__min_samples_leaf": 2,
+        "classifier__min_samples_split": 5,
+        "classifier__n_estimators": 300
+    },
+    "cv_recall": 0.7591547619047618,
+    "test_accuracy": 0.7643384440658717,
+    "test_roc_auc": 0.8411561845314729,
+    "test_churn_precision": 0.539039039039039,
+    "test_churn_recall": 0.7687366167023555,
+    "test_churn_f1": 0.6337157987643425
+}
